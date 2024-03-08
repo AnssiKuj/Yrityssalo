@@ -1,0 +1,22 @@
+.frontpage-container {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  background: url("../img/yrityssalo-bg.webp") no-repeat center fixed;
+  background-size: cover;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.frontpage-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .frontpage-container {
+    bottom: 50px;
+  }
+}

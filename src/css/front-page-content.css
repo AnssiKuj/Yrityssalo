@@ -1,0 +1,178 @@
+.frontpage-content {
+  color: var(--font-color);
+  width: 45%;
+  background-color: var(--main-white);
+  border-radius: 10px;
+  margin-top: 50px;
+  float: right;
+  margin-right: 5%;
+  min-width: 670px;
+  max-width: 800px;
+}
+
+.frontpage-content h1 {
+  font-weight: 600;
+  margin: 30px 50px 0px 50px;
+  font-size: 45px;
+  color: var(--main-blue)
+}
+
+.frontpage-content-grp1 {
+  margin: 0px 100px 30px 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.frontpage-content-grp1 p {
+  margin-top: 10px;
+}
+ 
+.frontpage-content-grp1 p:first-child {
+  font-weight: 500;
+}
+
+.frontpage-content-grp2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 50px;
+}
+
+.frontpage-content-grp2 p {
+  margin: 0px;
+}
+
+.frontpage-content-grp3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 20px;
+  background-color: var(--main-green);
+  height: 60px;
+  border-radius: 5px;
+}
+
+.frontpage-content-grp4 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.frontpage-content-grp4 > p {
+  font-size: 14px;
+}
+
+.frontpage-hint-icon {
+  align-self: center;
+  margin-left: 10px;
+  font-size: 45px;
+  color: var(--main-blue);
+}
+
+.frontpage-hint-text {
+  color: var(--main-white);
+  width: 300px;
+  margin: 0;
+  display: flex;
+  margin-left: 20px;
+}
+
+.frontpage-hint-text p {
+  margin: 0;
+  align-self: center;
+  
+}
+
+.frontpage-buttons-grp {
+  display: flex;
+  margin-left: 55px;
+  margin-right: 45px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.frontpage-button {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  background-color:  var(--main-blue);
+  cursor: pointer;
+  color: var(--main-white);
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.frontpage-button:hover {
+  background-color: var(--main-green);
+}
+
+.frontpage-button p {
+  font-weight: 500;
+  margin: 0;
+  align-self: center;
+}
+
+#hidden-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .frontpage-content {
+    width: 96%;
+    margin: 50px 2%;
+    min-width: 0;
+  }
+
+  .frontpage-content h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 10px;
+  }
+
+  .frontpage-content-grp1 {
+    margin: 0px 15px 0px 30px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .frontpage-content-grp2 {
+    margin: 40px 15px 30px 30px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .frontpage-content-grp3 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+  }
+
+  .frontpage-content-grp3 p {
+    font-size: 12px
+  }
+
+  .frontpage-hint-icon {
+    font-size: 3rem;
+  }
+
+  .frontpage-buttons-grp {
+    margin-left: 35px;
+    margin-right: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+  } 
+
+  .frontpage-button {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .frontpage-buttons-grp {
+    font-size: 11px;
+    margin-left: 40px; 
+  } 
+}

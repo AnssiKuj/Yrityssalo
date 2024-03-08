@@ -1,0 +1,31 @@
+.frontpage-nav-block {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: var(--main-blue);
+  cursor: pointer;
+}
+
+.frontpage-nav-block:hover {
+  background-color: var(--main-green);
+}
+
+.frontpage-nav-block p {
+  align-self: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--main-white);
+}
+
+@media only screen and (max-width: 770px) {
+  .frontpage-nav-block {
+    width: 12vw;
+    height: 10vw;
+  }
+  .frontpage-nav-block p {
+    font-size: 2.3em;
+  }
+}

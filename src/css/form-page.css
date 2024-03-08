@@ -1,0 +1,14 @@
+.form-page-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/rekrybg2.c695bace09fac488ad2e.webp") no-repeat center fixed;
+  background-size: cover;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
